@@ -1,123 +1,41 @@
-<!-- Bootstrap-Portfolio/index.html -->
+<!-- Basic-Portfolio/index.html -->
+
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>Jeffrey (Jeff) Miller </title>
+        <style></style>
+    </head>
 
-<head>
-<!-- Bring in our bootstrap stylesheet -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   
-
-    <style>
-    .my-container {
-        /* width:960px; */
-        /* margin: 0 auto; */
-        background:#ffffff;
-        border-style:solid;
-        border-color:#dddddd;
-        border-width: thick;
-        padding-bottom: 10px;
-    }
-
-    .my-navbar{
-        background-color:#4aaaa5;
-        /* width:960px; */
-        /* margin: 0 auto; */
-    }
-
-    .my-nav-items{
-        margin-right: 20px;
-    }
-    
-    .about-me-header {
-        color:#4aaaa5;
-    }
-
-    .my-picture {
-        /* width: 200px; */
-        /* height: 200px; */
-        /* margin-top:20px; */
-        /* margin-bottom:10px; */
-        /* margin-right: 20px; */
-        /* margin-left:20px; */
-        /* float:left; */
-}
-
-.about-me-header {
-    margin-right:20px;
-    margin-left: 20px;
-    color:#4aaaa5;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #777777;
-    color: white;
-    text-align: center;
-}
-
-    </style>
-    
-    <title>Jeffrey Miller</title>
-</head>
-<body>
-<!-- <div class="container-fluid"> -->
-<!-- <div class="row" > -->
-<!-- <div class="col-md-12"> -->
-
-
-<!-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff"> -->
-<!-- <nav class="navbar navbar-defalut"> -->
-
-<!-- <div class="container my-container"> -->
-    <!-- START row 1 -- navigation -->
-<!-- <div class="row"> -->
-<!-- <div class="col-md-12"> --> -->
-
-
-    <!-- Responsive Navbar classes  -->
-        <nav class="navbar navbar-expand-xs fixed-top my-navbar">
-                      <div class="container-fluid">
-                      <div class="navbar-header">
-                      <span class="navbar-brand">Jeffrey Miller</span>
-                      <!-- <button class="navbar-toggler"> -->
-                            <!-- <span class="navbar-toggler-icon"></span> -->
-                       <!-- </button> -->
-                        <!-- <a class="navbar-brand" href="#">Jeffrey Miller</a> -->
-                        <!-- <p class="navbar-text navbar-right"><a href="#index.html" class="navbar-link">About</a></p> -->
-                      </div>
-
-                      <!-- <div class="collapse navbar-collapse"> -->
-                      <ul class="nav navbar-nav navbar-right my-nav-items">
-                          <!-- <li><a href="index.html"><span class="navbar-text"></span>About</a></li>
-                          <li><a href="contact.html"><span class="navbar-text"></span>Contact</a></li>
-                          <li><a href="portfolio.html"><span class="navbar-text"></span>Portfolio</a></li> -->
-                          <li class="navbar-item"><a href="index.html" class="nav-link">About</a></li>
-                          <li class="navbar-item"><a href="contact.html" class="navbar-link">Contact</a></li>
-                          <li class="navbar-item"><a href="portfolio.html" class="navbar-link">Portfolio</a></li>      
-                        </ul>
-                        <!-- </div> -->
-
-                        </div>
-                      </nav>
-<div class="container my-container">
-    <div class="row">
-        <div class="col-md-6">
-<h2 class="about-me-header">About Me</h2>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-                <img src="https://via.placeholder.com/200x200" alt="Jeffrey Miller">   
-        </div>
-        <div class="col-md-9">
-                <p>The Jeffrey Miller story.  A native Clevelander - born, educated, and worked 
+    <body>
+        
+            <!-- <header>Jeffrey Miller</header> -->
+            <!-- <div id="nav-bar"> -->
+        <div id="container">
+            <section id="nav-bar">
+                <div id="name-box">
+                    <div id="name"><h3>Jeffrey Miller</h3></div>
+                </div>
+                <div id="nav-box">
+                    <!-- <div id="nav-links"></div> -->
+                    <a href="index.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="portfolio.html">Portfolio</a>                    
+                    <!-- <div id="nav-buttons">Nav buttons go here</div> -->
+                </div>
+            </section>    
+            <!-- </div> -->
+            <div id="main">
+                <div id="about-me">
+                    <header id="about-me-header">
+                        <h2>About Me</h2>
+                        <hr> 
+                    </header>
+                    <img class="my-picture" src="Images/cat.jpg" alt="Jeffrey Miller">
+                    <div id="p-container">
+                    <p>The Jeffrey Miller story.  A native Clevelander - born, educated, and worked 
                         for 38 years developing a professional career in Information Technology.
                         I am a husband married for 36 years, farther of two sons and a daughter.  
                         A grandfarther of one grand daughter. 
@@ -129,34 +47,20 @@
                         I see my future as being involved in the visual representation and presentation
                         of data.  I would also like to augment my current systems knowledge and experience
                         with the ability to develop interactive applications accessible through the internet.
-                    </p> 
-        </div>  
-    </div>
-    <!-- <div class="row">
-        <div class="col">
-            content for blank row
+                    </p>
+                    </div>                   
+                    <!-- </p> -->
+                </div>
+                <!-- This is the main-section -->
+            </div>
+            <section id="footer">
+                <div id="footer-text"><h6>Basic-Portfolio</h6></div>
+                <!-- <h6 style="display:inline;">Basic-Portfolio</h6> -->
+            </section>          
         </div>
-    </div> -->
-    </div>
-    </div>
-<div class="row">
-    <div class="col">
-        <footer class="footer font-small blue pt-4">
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:</div>
-        </footer>
-        </div>
-</div>
-                      <!-- </div> -->
-<!-- </div> -->
-
-    <!-- END row 1 -- navigation --> 
-
-    <!-- START row 2 -- about me -->
-    <!-- <div class="row"> -->
-        <!-- <div class="col=md-2"> -->
-           <!-- <h2 style="color:#4aaaa5;">About Me</h2>  -->
-        <!-- </div> -->
-    <!-- </div>            -->          
-        <!-- </div> -->
-</body>
+         
+       
+            
+    </body>
 </html>
+    
